@@ -3,7 +3,7 @@ import { View, Text,  StyleSheet, TouchableOpacity } from 'react-native';
 
 
 
-const SplashScreen = ({ navigation }) => {
+export const Splash = ({ navigation }) => {
  
     const handleGetStarted = () => {
       navigation.navigate('GetStarted'); 
@@ -54,5 +54,3 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
 });
-
-export default SplashScreen;

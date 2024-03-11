@@ -2,9 +2,9 @@ import React from 'react';
 import {  Text, TouchableOpacity, StyleSheet, ImageBackground } from 'react-native';
 
 
-const GetStarted = ({ navigation }) => {
+export const GetStarted = ({ navigation }) => {
     const handleSignInScreen = () => {
-      navigation.navigate('WelcomeScreen'); 
+      navigation.navigate('Welcome'); 
     };
 
 
@@ -28,7 +28,7 @@ const GetStarted = ({ navigation }) => {
 );
 };
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
     container: {
         flex: 1, 
         justifyContent: 'center', 
@@ -81,4 +81,3 @@ const styles = StyleSheet.create({
       },
 });
 
-export default GetStarted;
