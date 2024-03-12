@@ -2,10 +2,10 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { Splash } from './src/screens/Splash';
-import { GetStarted } from './src/screens/GetStarted';
-import { SignIn } from './src/screens/SignIn';
-import { MainNavigation } from './src/screens/navigation';
+import { Splash } from './src/Splash';
+import { GetStarted } from './src/GetStarted';
+import { SignIn } from './src/SignIn';
+import { MainNavigation } from './src/navigation';
 
 const Stack = createNativeStackNavigator();
 
